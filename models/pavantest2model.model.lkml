@@ -27,3 +27,8 @@ persist_with: pavantest2model_default_datagroup
 
 explore: adultsalaryv1csv {}
 
+explore: transaction_history_short {}
+
+explore: zak_processed {}
+
+explore: zak_processed_bv_1 {}
