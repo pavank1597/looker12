@@ -36,3 +36,5 @@ explore: zak_processed_bv_1 {}
 explore: retail_analytics_cpy {}
 
 explore: retail_analytics_cpy_nulls {}
+
+explore: organizations {}
