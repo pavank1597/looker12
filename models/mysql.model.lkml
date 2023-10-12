@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "bigqueryconnection"
+connection: "mysqltestdev"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -25,14 +25,5 @@ persist_with: pavantest2model_default_datagroup
 # Typically, join parameters require that you define the join type, join relationship, and a sql_on clause.
 # Each joined view also needs to define a primary key.
 
-explore: adultsalaryv1csv {}
 
-explore: transaction_history_short {}
-
-explore: zak_processed {}
-
-explore: zak_processed_bv_1 {}
-
-explore: retail_analytics_cpy {}
-
-explore: retail_analytics_cpy_nulls {}
+explore: organizations {}
